@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: #40514e;
+}
+
+.top-container {
+  background: #d1f5d3;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 20px;
+}
+h1 {
+  margin-top: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.3rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+hr {
+  border: dotted #cddbdb 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+.profile-pic {
+  height: 200px;
+  width: 200px;
+  padding-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skills-image {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+.computer-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.bottom-container {
+  background: #66bfbf;
+  height: 100px;
+  padding: 40px;
+}
+.footer-link {
+  text-decoration: none;
+  color: #11999e;
+  margin: 15px;
+  font-size: 1.3rem;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.footer-text {
+  color: #eaf6f6;
+  padding-top: 20px;
+}
+.contact-text {
+  width: 40%;
+  margin: 40px auto 40px auto;
+  line-height: 2;
+}
+.contact-button {
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "montserrat";
+  font-size: 20px;
+  font-weight: normal;
+  padding: 10px;
+  margin: 30px 0 30px 0;
+  background-color: #11999e;
+  box-shadow: 1px 1px 20px 0px #000000;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
